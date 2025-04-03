@@ -29,7 +29,10 @@ This script performs:
 - CSV output validation: Reads and displays the `channel_distribution.csv` to verify its contents.
 
 ## Deployment
-This script is intended for local execution but can be expanded to run in cloud environments.
+This script is intended for local execution. To run it: 
+1. Ensure Python and dependencies are installed.
+2. The dataset is in the correct directory.
+3. Run the script as described above. 
 
 ## Author
 Ushna Laraib
@@ -38,6 +41,8 @@ Ushna Laraib
 This project is licensed under the MIT License.
 
 ## Acknowledgement
-- Data sourced from YouTube dataset.
-- Pandas library for data processing.
+This code was created as part of an academic assignment. Special thanks to:
+- My professor for their feedback and guidance.
+- The Pandas library for its robust data processing and manipulation capabilities.
+- The open-source community for providing valuable resources and tools that supported this project.
 """
