@@ -23,10 +23,10 @@ This project analyzes a dataset containing YouTube channel data and calculates t
 ### Breakdown of Tests
 This script performs:
 - Data loading: Reads a CSV file containing YouTube channel data.
-- Data cleaning: Removes rows with missing values (NaNs)in the channeltype column.
+- Data cleaning: Removes rows with missing values (NaNs)in the `channeltype` column.
 - Distribution calculation: Calculates the distribution of channel types from the top 1000 rows.
-- Result saved: Saves the calculated distribution to a CSV file named channel_distribution.csv.
-- CSV output validation: S
+- Result saved: Saves the calculated distribution to a CSV file named `channel_distribution.csv`.
+- CSV output validation: Reads and displays the `channel_distribution.csv` to verify its contents.
 
 ## Deployment
 This script is intended for local execution but can be expanded to run in cloud environments.
